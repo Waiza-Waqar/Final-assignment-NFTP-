@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Custom Fonts */
+body{
+    font-family: 'Ubuntu Mono', monospace;
+}
+/*  */
+header{
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0.5,0.5), rgba(1,0.5,0,0.5)) , url(photo-1507842217343-583bb7270b66.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.headerContainer{
+
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.headerContainer ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+} 
+.headerContainer ul li{
+    display: inline-block;
+    float: right;
+    margin: 2px;
+    padding: 1px;
+    font-size: 1.6rem;
+}
+.headerContainer .logoHeading{
+    float: left;
+    margin: 2px;
+    padding: 1px;
+    margin-top: 5px;
+}
+.MainHeading .theHeading{
+    color: #fff;
+    font-weight: 900;
+    display: block;
+    font-size: 50px;
+    
+}
+.MainHeading .miniHeading{
+    color: #fff;
+    display: block;
+    font-weight: 900;
+    font-size: 30px;
+}
+.MainHeading{
+    margin-top: 100px;
+    text-align: center;
+}
+.MainHeading .socialmedia li a{
+    display: inline-flex;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 18px;
+    margin-top: 50px;
+    
+}
+.MainHeading .socialmedia li {
+    display: inline-flex;
+    
+}
+.imgContainer img{
+    float: left;
+    height: 500px;
+    width: 400px;
+    display: inline;
+}
+.textContainer{
+    width: 90%;
+    padding-left: 100px;
+}
+.TextHeading, .SubT_H{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Headland One', serif;
+}
+div p{
+    text-align: center;
+    padding: 20px;
+
+}
+.Luxurious {
+    font-family: 'Luxurious Script', cursive;
+    font-size: 50px;
+
+}
+.thisBtn{
+    display: block;
+}
+.progressData{
+    margin: 60px;
+}
+.progress{
+    text-align: center;
+    margin: 25px;
+    width: 50%;
+}
+.Desirebox{
+    text-align: center;
+    margin: 100px;
+    position: relative;
+}
+.Links{
+    display: flex;
+    justify-content: space-around;
+}
